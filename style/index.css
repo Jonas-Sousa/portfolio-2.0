@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+}
+.navbar .navbar-vertical {
+  background-color: blue;
+  width: 4rem;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .navbar-horizontal {
+  background-color: bisque;
+  width: 100vw;
+}
+.navbar .navbar-horizontal .home-superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  font-size: 2rem;
+}
+.navbar .navbar-horizontal .home-superior span {
+  background-color: red;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  text-align: center;
+}
+.navbar .navbar-horizontal .home-superior a {
+  background-color: yellow;
+}
+.navbar .navbar-horizontal .home-inferior {
+  padding: 0.5rem 5rem;
+  background-color: green;
+}/*# sourceMappingURL=index.css.map */
