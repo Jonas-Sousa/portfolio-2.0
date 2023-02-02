@@ -15,16 +15,16 @@
             a {
                 
                 img {
-                    color: green;
-                    // filter: invert(100%);
+                    filter: invert(95%);
                     width: 2.5rem;
-
+                    
                 }
+                
             }
        }
     }
     .navbar-horizontal {
-        background-color: bisque;
+        background-color: #1c1e26;
         width: 100vw;
         
         
@@ -35,20 +35,46 @@
             justify-content: space-between;
             padding: 1rem 4rem;
             font-size: 2rem;
+           
+                
+                
             span {
-                background-color: red;
-                padding: 1.5rem 1.5rem 1rem 1.5rem;
+                background-image: url('../../img/css-icon.svg');
+                background-size: 2.5rem, contain;
+                background-position: left, bottom;
+                background-repeat: no-repeat;
+
+                background-color: #26293af9;
+                padding: 1.5rem 1.5rem 1rem 2.5rem;
                 text-align: center;
+                color: white;
             }
+            
+            
             a {
-                background-color: yellow;
+                background-color: white;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding: 0 0.7rem;
+                
+
+                text-decoration: none;
+                color: black;
             }
         }
         .home-inferior {
             padding: 0.5rem 5rem;
-            background-color: green;
+            background-color: #232635f9;
+            color: white; 
             
-            
+
+            span {
+                background-image: url('../../img/css-icon.svg');
+                background-size: 1rem, contain;
+                background-position: left, bottom;
+                background-repeat: no-repeat;
+                padding-left: 1rem;
+            }
            
         }
     }
