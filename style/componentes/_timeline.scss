@@ -1,9 +1,41 @@
 .timeline {
-    background-image: url('../../img/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
     .faixa-lateral img {
-        margin: 6rem 4rem;
-        // width: 3rem;
+        margin-top: 6rem;
+        margin-left: 4rem;
+        max-width: 5rem;
     }
+    .content-jonas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -324rem;
+        .text-jonas {
+            color: #50FA7B;
+            font-size: 3rem;
+            margin-left: 7rem;
+            // width: 30rem;
+            // white-space: wrap;
+            line-height: 1.8;
+            .text-front {
+                color: #8BE9FD;
+                margin-left: 5rem;
+            }
+            .dev {
+                margin-left: 1rem;
+                color: #BD93F9;
+            }
+            .pontuacao {
+                color: #FF79C6;
+            }
+            span {
+                color: white;
+            }
+        }
+        .img-jonas img {
+
+        }
+        
+    }
+    
 }
