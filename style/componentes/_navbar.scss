@@ -33,26 +33,26 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 1rem 4rem;
-            font-size: 2rem;
+            font-size: 1.5rem;
            
                 
                 
             span {
                 background-image: url('../../img/css-icon.svg');
-                background-size: 2.5rem, contain;
-                background-position: left, bottom;
+                background-size: 1.5rem, contain;
+                background-position: 14px 26px;
                 background-repeat: no-repeat;
 
                 background-color: #232635f9;
                 padding: 1.5rem 1.5rem 1rem 2.5rem;
                 text-align: center;
-                color: white;
+                color: $cor_branco_geral;
             }
             
             
             a {
-                background-color: white;
-                border: 1px solid white;
+                background-color: $cor_branco_geral;
+                border: 1px solid $cor_branco_geral;
                 border-radius: 10px;
                 padding: 0 0.7rem;
                 
@@ -64,7 +64,7 @@
         .home-inferior {
             padding: 0.5rem 5rem;
             background-color: #232635f9;
-            color: white; 
+            color: $cor_branco_geral; 
             
 
             span {

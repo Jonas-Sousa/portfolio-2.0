@@ -34,21 +34,21 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem 4rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .navbar .navbar-horizontal .home-superior span {
   background-image: url("../../img/css-icon.svg");
-  background-size: 2.5rem, contain;
-  background-position: left, bottom;
+  background-size: 1.5rem, contain;
+  background-position: 14px 26px;
   background-repeat: no-repeat;
   background-color: rgba(35, 38, 53, 0.9764705882);
   padding: 1.5rem 1.5rem 1rem 2.5rem;
   text-align: center;
-  color: white;
+  color: #F8F8F2;
 }
 .navbar .navbar-horizontal .home-superior a {
-  background-color: white;
-  border: 1px solid white;
+  background-color: #F8F8F2;
+  border: 1px solid #F8F8F2;
   border-radius: 10px;
   padding: 0 0.7rem;
   text-decoration: none;
@@ -57,7 +57,7 @@ html, body {
 .navbar .navbar-horizontal .home-inferior {
   padding: 0.5rem 5rem;
   background-color: rgba(35, 38, 53, 0.9764705882);
-  color: white;
+  color: #F8F8F2;
 }
 .navbar .navbar-horizontal .home-inferior span {
   background-image: url("../../img/css-icon.svg");
@@ -97,5 +97,5 @@ html, body {
   color: #FF79C6;
 }
 .timeline .content-jonas .text-jonas span {
-  color: white;
+  color: #F8F8F2;
 }/*# sourceMappingURL=index.css.map */

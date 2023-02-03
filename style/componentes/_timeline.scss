@@ -10,33 +10,28 @@
         justify-content: space-evenly;
         margin-top: -270rem;
         .text-jonas {
-            color: #50FA7B;
+            color: $cor_letra_titulo;
             font-size: 3rem;
             margin-top: 10rem;
             margin-left: 7rem;
             
             line-height: 1.8;
             .text-front {
-                color: #8BE9FD;
+                color: $cor_letra_p_azul;
                 margin-left: 5rem;
             }
             .dev {
                 margin-left: 1rem;
-                color: #BD93F9;
+                color: $cor_letra_p_lilas;
             }
             .pontuacao {
-                color: #FF79C6;
+                color: $cor_pontuacao;
             }
             span {
-                color: white;
+                color: $cor_branco_geral;
             }
         }
-        .img-jonas img {
-
-        }
-        
+               
     }
-
-   
     
 }
