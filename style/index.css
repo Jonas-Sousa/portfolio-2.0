@@ -1,7 +1,7 @@
 html, body {
   font-family: "Fira Code", monospace;
   @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
-  background-image: url("../../img/background.png");
+  background-image: url("../../img/fundo-teste.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -10,18 +10,20 @@ html, body {
   position: fixed;
 }
 .navbar .navbar-vertical {
-  background-color: #2f3348;
+  background-color: #343644;
   width: 4rem;
   height: 100vh;
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: start;
   align-items: center;
 }
-.navbar .navbar-vertical li a img {
-  filter: invert(95%);
-  width: 2.5rem;
+.navbar .navbar-vertical li a svg {
+  width: 2rem;
+  height: 2rem;
+  fill: #6272A4;
+  padding: 1.3rem;
 }
 .navbar .navbar-horizontal {
   background-color: #1c1e26;
@@ -39,7 +41,7 @@ html, body {
   background-size: 2.5rem, contain;
   background-position: left, bottom;
   background-repeat: no-repeat;
-  background-color: rgba(38, 41, 58, 0.9764705882);
+  background-color: rgba(35, 38, 53, 0.9764705882);
   padding: 1.5rem 1.5rem 1rem 2.5rem;
   text-align: center;
   color: white;
@@ -74,7 +76,7 @@ html, body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: -324rem;
+  margin-top: -270rem;
 }
 .timeline .content-jonas .text-jonas {
   color: #50FA7B;
