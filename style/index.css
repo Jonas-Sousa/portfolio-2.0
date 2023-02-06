@@ -47,24 +47,30 @@ html, body {
   color: #F8F8F2;
 }
 .navbar .navbar-horizontal .home-superior a {
-  background-color: #F8F8F2;
-  border: 1px solid #F8F8F2;
-  border-radius: 10px;
-  padding: 0 0.7rem;
+  padding: 0 3rem;
+  background-image: url("../../img/download.svg");
+  background-size: 1.5rem, contain;
+  background-repeat: no-repeat;
+  background-position: 20px;
+  font-size: 1.5rem;
   text-decoration: none;
-  color: black;
+  color: #F8F8F2;
 }
 .navbar .navbar-horizontal .home-inferior {
   padding: 0.5rem 5rem;
   background-color: rgba(35, 38, 53, 0.9764705882);
   color: #F8F8F2;
 }
-.navbar .navbar-horizontal .home-inferior span {
+.navbar .navbar-horizontal .home-inferior .mini-home {
   background-image: url("../../img/css-icon.svg");
   background-size: 1rem, contain;
   background-position: left, bottom;
   background-repeat: no-repeat;
   padding-left: 1rem;
+}
+.navbar .navbar-horizontal .home-inferior .hashtag {
+  color: #FF79C6;
+  margin-top: 1rem;
 }
 
 .timeline .faixa-lateral img {
@@ -79,23 +85,56 @@ html, body {
   margin-top: -270rem;
 }
 .timeline .content-jonas .text-jonas {
-  color: #50FA7B;
   font-size: 3rem;
+  color: #50FA7B;
   margin-top: 10rem;
   margin-left: 7rem;
   line-height: 1.8;
 }
-.timeline .content-jonas .text-jonas .text-front {
+.timeline .content-jonas .text-jonas .text-azul {
+  font-size: 2.5rem;
   color: #8BE9FD;
   margin-left: 5rem;
 }
-.timeline .content-jonas .text-jonas .dev {
-  margin-left: 1rem;
+.timeline .content-jonas .text-jonas .text-lilas {
+  font-size: 2.5rem;
   color: #BD93F9;
+  margin-left: 1rem;
 }
 .timeline .content-jonas .text-jonas .pontuacao {
+  font-size: 2.5rem;
   color: #FF79C6;
 }
 .timeline .content-jonas .text-jonas span {
   color: #F8F8F2;
+}
+
+.sobre-mim .sobre-text {
+  font-size: 3rem;
+  color: #50FA7B;
+  margin-left: 15rem;
+  margin-top: -70rem;
+  line-height: 1.8;
+}
+.sobre-mim .sobre-text .text-azul {
+  font-size: 2.5rem;
+  color: #8BE9FD;
+  margin-left: 5rem;
+}
+.sobre-mim .sobre-text .text-lilas {
+  font-size: 2.5rem;
+  color: #BD93F9;
+  margin-left: 5rem;
+}
+.sobre-mim .sobre-text .pontuacao {
+  font-size: 2.5rem;
+  color: #FF79C6;
+}
+.sobre-mim .sobre-text span {
+  color: #F8F8F2;
+}
+.sobre-mim .sobre-text .texto-sobre {
+  margin-left: 5rem;
+  color: #8BE9FD;
+  width: 20rem;
 }/*# sourceMappingURL=index.css.map */

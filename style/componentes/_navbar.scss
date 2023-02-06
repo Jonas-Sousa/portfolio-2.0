@@ -51,14 +51,17 @@
             
             
             a {
-                background-color: $cor_branco_geral;
-                border: 1px solid $cor_branco_geral;
-                border-radius: 10px;
-                padding: 0 0.7rem;
-                
+                padding: 0 3rem;
+                background-image: url('../../img/download.svg');
+                background-size: 1.5rem, contain;  
+                background-repeat: no-repeat; 
+                background-position: 20px;   
+                       
 
+
+                font-size: 1.5rem;
                 text-decoration: none;
-                color: black;
+                color: $cor_branco_geral;
             }
         }
         .home-inferior {
@@ -67,12 +70,16 @@
             color: $cor_branco_geral; 
             
 
-            span {
+            .mini-home {
                 background-image: url('../../img/css-icon.svg');
                 background-size: 1rem, contain;
                 background-position: left, bottom;
                 background-repeat: no-repeat;
                 padding-left: 1rem;
+            }
+            .hashtag{
+                color: $cor_pontuacao;
+                margin-top: 1rem;
             }
            
         }

@@ -10,22 +10,22 @@
         justify-content: space-evenly;
         margin-top: -270rem;
         .text-jonas {
-            color: $cor_letra_titulo;
-            font-size: 3rem;
+           @include text-titulo;
             margin-top: 10rem;
             margin-left: 7rem;
             
             line-height: 1.8;
-            .text-front {
-                color: $cor_letra_p_azul;
+            .text-azul {
+                @include text-azul;
                 margin-left: 5rem;
             }
-            .dev {
+            .text-lilas {
+                @include text-lilas;
                 margin-left: 1rem;
-                color: $cor_letra_p_lilas;
+                
             }
             .pontuacao {
-                color: $cor_pontuacao;
+                @include text-pontuacao;
             }
             span {
                 color: $cor_branco_geral;

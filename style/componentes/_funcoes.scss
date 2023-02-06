@@ -1,0 +1,16 @@
+@mixin text-titulo {
+    font-size: $fonte-titulo;
+    color: $cor_letra_titulo;
+}
+@mixin text-azul {
+    font-size: $fonte-paragrafo;
+    color: $cor_letra_p_azul;
+}
+@mixin text-lilas {
+    font-size: $fonte-paragrafo;
+    color: $cor_letra_p_lilas;
+}
+@mixin text-pontuacao {
+    font-size: $fonte-paragrafo;
+    color: $cor_pontuacao;
+}
