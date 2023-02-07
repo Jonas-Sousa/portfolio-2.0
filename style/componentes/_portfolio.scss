@@ -1,0 +1,28 @@
+.portfolio {
+    margin-left: 15rem;
+    margin-top: 30rem;
+    .text-portfolio {
+        @include text-titulo;
+        span {
+            color: $cor_branco_geral;
+        }
+    }
+    .portfolio-content{
+        margin-left: 5rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .teste {
+            margin-right: 0.5rem;
+            margin-bottom: 0.3rem;
+            
+        }
+    }
+
+    .chaves-inferior {
+        font-size: $fonte-titulo;
+        color: $cor_branco_geral;
+        margin-top: 5rem;
+    }
+}

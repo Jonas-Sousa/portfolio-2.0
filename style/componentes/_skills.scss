@@ -35,9 +35,28 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 3rem  1rem 2rem 3rem;
+            margin: 4rem 0 2rem 4rem;
             
         }
+        .typecript {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 4rem 0 2rem 4rem;
+            
+        }
+        .react {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 4rem 0 2rem 4rem;
+            
+        }
+    }
+    .chaves-inferior {
+        font-size: $fonte-titulo;
+        color: $cor_branco_geral;
+        margin-top: 5rem;
     }
     
 }
