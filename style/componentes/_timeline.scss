@@ -1,13 +1,16 @@
 .timeline {
     .faixa-lateral img {
-        margin-top: 6rem;
+        margin-top: 5.3rem;
         margin-left: 4rem;
         max-width: 5rem;
+        box-shadow: 15px 1px 10px -21px rgba(0, 0, 0, 0.91)
+
     }
     .content-jonas {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         margin-top: -270rem;
         .text-jonas {
            @include text-titulo;
@@ -31,7 +34,9 @@
                 color: $cor_branco_geral;
             }
         }
+        
                
     }
+   
     
 }

@@ -22,7 +22,29 @@
                     padding: 1.3rem;
                 }
             }
+            
        }
+    
+        .drop-down {
+            
+            .cores {
+                display: none;
+            }
+            &:hover {
+                .cores {
+                    display: block;
+                    position: absolute;
+                    margin-left: 6rem;
+                    margin-top: -4rem;
+                    color: $cor_branco_geral;
+                    
+                   
+                }
+            }
+        } 
+        
+        
+    
     }
     .navbar-horizontal {
         background-color: #1c1e26;

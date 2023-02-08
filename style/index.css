@@ -1,9 +1,8 @@
 html, body {
   font-family: "Fira Code", monospace;
   @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
-  background-image: url("../../img/fundo-teste.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #0d0d12;
+  background-image: linear-gradient(0deg, #0d0d12 0%, #0f1016 100%);
 }
 
 .navbar {
@@ -24,6 +23,16 @@ html, body {
   height: 2rem;
   fill: #6272A4;
   padding: 1.3rem;
+}
+.navbar .navbar-vertical .drop-down .cores {
+  display: none;
+}
+.navbar .navbar-vertical .drop-down:hover .cores {
+  display: block;
+  position: absolute;
+  margin-left: 6rem;
+  margin-top: -4rem;
+  color: #F8F8F2;
 }
 .navbar .navbar-horizontal {
   background-color: #1c1e26;
@@ -74,14 +83,16 @@ html, body {
 }
 
 .timeline .faixa-lateral img {
-  margin-top: 6rem;
+  margin-top: 5.3rem;
   margin-left: 4rem;
   max-width: 5rem;
+  box-shadow: 15px 1px 10px -21px rgba(0, 0, 0, 0.91);
 }
 .timeline .content-jonas {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: -270rem;
 }
 .timeline .content-jonas .text-jonas {
@@ -152,6 +163,7 @@ html, body {
 .skills .text-comentado p {
   font-size: 2rem;
   color: #6272A4;
+  z-index: 1;
 }
 .skills .text-comentado figure img {
   width: 3rem;
@@ -198,10 +210,25 @@ html, body {
 .portfolio {
   margin-left: 15rem;
   margin-top: 30rem;
+  line-height: 1.8;
 }
 .portfolio .text-portfolio {
   font-size: 3rem;
   color: #50FA7B;
+}
+.portfolio .text-portfolio .text-azul {
+  font-size: 2.5rem;
+  color: #8BE9FD;
+  margin-left: 5rem;
+}
+.portfolio .text-portfolio .text-lilas {
+  font-size: 2.5rem;
+  color: #BD93F9;
+  margin-left: 1rem;
+}
+.portfolio .text-portfolio .pontuacao {
+  font-size: 2.5rem;
+  color: #FF79C6;
 }
 .portfolio .text-portfolio span {
   color: #F8F8F2;
@@ -214,7 +241,6 @@ html, body {
 }
 .portfolio .portfolio-content .teste {
   margin-right: 0.5rem;
-  margin-bottom: 0.3rem;
 }
 .portfolio .chaves-inferior {
   font-size: 3rem;
