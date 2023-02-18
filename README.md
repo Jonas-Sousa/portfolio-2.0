@@ -2,4 +2,4 @@
 
 <h1>Em construção</h1>
 <br>
-<p>Front em andamento, ainda em fase de testes</p>
+<p>Front em andamento, em fase de testes</p>
