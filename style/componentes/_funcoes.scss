@@ -14,3 +14,10 @@
     font-size: $fonte-paragrafo;
     color: $cor_pontuacao;
 }
+@mixin placeholder {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: rgba($color: $cor_branco_geral, $alpha: 0.5);
+    padding-left: 1rem;
+    letter-spacing: 0.2rem;
+}
