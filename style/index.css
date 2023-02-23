@@ -272,7 +272,7 @@ html, body {
   justify-content: center;
 }
 .contato .icones figure a img {
-  padding: 10rem 3rem 4rem 3rem;
+  padding: 5rem 3rem 4rem 3rem;
   width: 3rem;
 }
 .contato .formulario {
@@ -348,4 +348,26 @@ html, body {
   font-size: 3rem;
   color: #F8F8F2;
   margin-top: 5rem;
+}
+
+.jonas-final {
+  margin-left: 15rem;
+  margin-top: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jonas-final .jonas-img-small img {
+  width: 15rem;
+}
+.jonas-final .icones a svg {
+  width: 6rem;
+  height: 4rem;
+  margin: 4rem 1rem;
+  fill: #8BE9FD;
+  transition: 0.5s;
+}
+.jonas-final .icones a svg:hover {
+  fill: #50FA7B;
+  transition: 1s;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,30 @@
+.jonas-final {
+    margin-left: 15rem;
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .jonas-img-small{
+        img {
+            width: 15rem;
+        }
+    }
+    .icones {
+        a {
+            svg{
+                width: 6rem;
+                height: 4rem;
+                margin: 4rem 1rem;
+                fill: $cor_letra_p_azul;
+                transition: 0.5s;
+                &:hover {
+                    fill: $cor_letra_titulo;
+                    transition: 1s;
+                }
+            }
+            
+        }
+       
+        
+    }
+}
