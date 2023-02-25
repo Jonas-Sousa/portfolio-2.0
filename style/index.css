@@ -10,19 +10,22 @@ html, body {
 }
 .navbar .navbar-vertical {
   background-color: #343644;
-  width: 4rem;
+  width: 4.2rem;
   height: 100vh;
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: start;
   align-items: center;
+}
+.navbar .navbar-vertical .nome-navbar figure img {
+  padding: 3rem 0 5rem 0;
+  width: 3rem;
 }
 .navbar .navbar-vertical li a svg {
   width: 2rem;
   height: 2rem;
   fill: #6272A4;
-  padding: 1.3rem;
+  padding: 1.3rem 0;
 }
 .navbar .navbar-vertical .drop-down .cores {
   display: none;
@@ -101,7 +104,8 @@ html, body {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: -270rem;
+  margin-top: -403rem;
+  margin-left: 1rem;
 }
 .timeline .content-jonas .text-jonas {
   font-size: 3rem;

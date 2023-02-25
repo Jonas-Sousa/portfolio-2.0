@@ -3,27 +3,35 @@
 
     .navbar-vertical {
         background-color: #343644;
-        width: 4rem;
+        width: 4.2rem;
         height: 100vh;
         position: fixed;
         display: flex;
         flex-direction: column;
-        justify-content: start;
         align-items: center;
         
-       li {
-            
+        .nome-navbar {
+            figure img {
+                padding: 3rem 0 5rem 0;
+                width: 3rem;
+                
+            }
+        }
+        
+
+        li {
+
             a {
-               
+
                 svg {
                     width: 2rem;
                     height: 2rem;
                     fill: $cor_icones;
-                    padding: 1.3rem;
+                    padding: 1.3rem 0;
                 }
             }
             
-       }
+        }
     
         .drop-down {
             .cores {
