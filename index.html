@@ -13,16 +13,17 @@
     <header>
         <section class="navbar">
             <nav>
-                <ul class="navbar-vertical">
+                <ul class="navbar-vertical close">
                     <li class="nome-navbar">
                         <figure>
                             <img src="./img/nome-navbar.png" alt="">
                         </figure>
                     </li>
                     <li class="sobre-mim">
-                        <a href="#sobre">
+                        <a href="#sobre" class="icon-contato">
                             <?xml version="1.0" encoding="utf-8"?>
                             <svg 
+                                class="click-sobre"
                                 fill="#000000" 
                                 width="800px" height="800px" 
                                 viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -31,6 +32,29 @@
                             </svg>
                             
                         </a>
+                        <div class="navbar-open">
+                            <h1>Sobre mim</h1>
+                            <ul>
+                                <ul class="drop">
+                                    <li>
+                                         <a href="">minha historia</a>
+                                     </li>
+                                    <li>
+                                         <a href="">conquistas</a>
+                                     </li>
+                                    <li>
+                                         <a href="">sobre</a>
+                                     </li>
+                                    <li>
+                                         <a href="">datas importantes</a>
+                                     </li>
+                                    <li>
+                                         <a href="">progresso</a>
+                                     </li>
+                                 </ul>
+                            </ul> 
+                        </div>
+                    
                     </li>
 
                     <li class="skils">
@@ -383,6 +407,6 @@
     <footer>
 
     </footer>
-    
+    <script src="./js/navbar.js"></script>
 </body>
 </html>
