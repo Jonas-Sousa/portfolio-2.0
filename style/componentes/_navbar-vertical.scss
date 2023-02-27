@@ -1,0 +1,113 @@
+.navbar {
+    position: fixed;
+    .navbar-vertical.close{
+        background-color: #343644;
+        width: 4rem;
+        transition: 0.4s;
+        
+
+    }
+
+    .navbar-vertical {
+        transition: 0.4s;
+        background-color: #262939;
+        width: 18rem;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        .nome-navbar {
+            figure img {
+              margin: 3rem 0 5rem 0.5rem;
+                width: 3rem;
+                
+            }
+        }
+        
+        
+        .sobre-mim {
+            display: flex;
+            align-items: center;
+           
+            .navbar-open.show-menu {
+                display: block;
+            }
+
+            .navbar-open {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 19rem;
+                margin-left: 7rem;
+                font-size: 1.5rem;
+                display: none;
+                h1 {
+                    margin-top: -8rem;
+                    margin-bottom: 5rem;
+                    text-transform: uppercase;
+                    color: $cor_branco_geral;
+                }
+                ul {
+                    li {
+                        padding: 1rem 0;
+                                              
+                        a {
+                            text-decoration: none;
+                            color: $cor_branco_geral;
+                            
+                            
+                        }
+                    }
+                   
+                } 
+                .drop {
+                    padding-top: 2rem;
+                }
+                
+            }
+        }
+
+        li {
+
+            a {
+
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+                    fill: $cor_icones;
+                    padding: 1.3rem 1.2rem;
+                }
+            }
+            
+        }
+    
+        .drop-down {
+            .cores {
+                display: none;
+            }
+            &:hover {
+                .cores{
+                    display: block;
+                    position: absolute;
+                    margin-left: 4.3rem;
+                    margin-top: -7rem;
+                    color: $cor_branco_geral;
+                   li figure img {
+                        width: 3rem;
+                        transition: 0.6s;
+                        &:hover{
+                            width: 3.5rem;
+                            transition: 0.6s;
+                        }
+
+                   }
+                }
+            }
+        } 
+        
+        
+    
+    }
+}
