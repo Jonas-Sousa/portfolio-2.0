@@ -82,6 +82,15 @@ html, body {
   display: flex;
   align-items: center;
 }
+.navbar .navbar-vertical .sobre-mim a .click-sobre {
+  transition: 0.2s;
+}
+.navbar .navbar-vertical .sobre-mim a .click-styled {
+  fill: #F8F8F2;
+  border-left: 4px solid #FF79C6;
+  width: 2.2rem;
+  transition: 0.2s;
+}
 .navbar .navbar-vertical .sobre-mim .navbar-open.show-menu {
   display: block;
 }
@@ -115,7 +124,8 @@ html, body {
   width: 2rem;
   height: 2rem;
   fill: #6272A4;
-  padding: 1.3rem 1.2rem;
+  padding: 0.7rem 1.2rem;
+  margin: 1rem 0;
 }
 .navbar .navbar-vertical .drop-down .cores {
   display: none;
