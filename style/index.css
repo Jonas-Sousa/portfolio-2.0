@@ -87,14 +87,14 @@ html, body {
 }
 .navbar .navbar-vertical .sobre-mim a .click-styled {
   fill: #F8F8F2;
-  border-left: 4px solid #FF79C6;
+  border-left: 5px solid #FF79C6;
   width: 2.2rem;
   transition: 0.2s;
 }
-.navbar .navbar-vertical .sobre-mim .navbar-open.show-menu {
+.navbar .navbar-vertical .sobre-mim .navbar-open-sobre.show-menu {
   display: block;
 }
-.navbar .navbar-vertical .sobre-mim .navbar-open {
+.navbar .navbar-vertical .sobre-mim .navbar-open-sobre {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -104,20 +104,20 @@ html, body {
   font-size: 1.5rem;
   display: none;
 }
-.navbar .navbar-vertical .sobre-mim .navbar-open h1 {
+.navbar .navbar-vertical .sobre-mim .navbar-open-sobre h1 {
   margin-top: -8rem;
   margin-bottom: 5rem;
   text-transform: uppercase;
   color: #F8F8F2;
 }
-.navbar .navbar-vertical .sobre-mim .navbar-open ul li {
+.navbar .navbar-vertical .sobre-mim .navbar-open-sobre ul li {
   padding: 1rem 0;
 }
-.navbar .navbar-vertical .sobre-mim .navbar-open ul li a {
+.navbar .navbar-vertical .sobre-mim .navbar-open-sobre ul li a {
   text-decoration: none;
   color: #F8F8F2;
 }
-.navbar .navbar-vertical .sobre-mim .navbar-open .drop {
+.navbar .navbar-vertical .sobre-mim .navbar-open-sobre .drop {
   padding-top: 2rem;
 }
 .navbar .navbar-vertical li a svg {

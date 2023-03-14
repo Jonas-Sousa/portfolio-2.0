@@ -1,8 +1,8 @@
 const liClose = document.querySelector('.close')
 const arrow = document.querySelector('.click-sobre');
+const navbarOpen = document.querySelector('.navbar-open-sobre')
 const arrowCloseDropDown = () => {
-    
-    const navbarOpen = document.querySelector('.navbar-open')
+     
     arrow.addEventListener('click', () => {
         
         navbarOpen.classList.toggle("show-menu")
@@ -21,7 +21,6 @@ body.addEventListener('click', (event) => {
 
   
   if (!isClickInsideNavbar) {
-    const navbarOpen = document.querySelector('.navbar-open');
     navbarOpen.classList.remove('show-menu');
     liClose.classList.add('close');
     arrow.classList.remove('click-styled')
