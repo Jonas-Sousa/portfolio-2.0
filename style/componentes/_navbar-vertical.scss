@@ -146,6 +146,70 @@
                 
             }
         }
+        .portfolio-icon {
+            display: flex;
+            align-items: center;
+            a {
+                .click-portfolio {
+                    transition: 0.2s;
+                }
+                
+                .click-styled {
+                    fill:$cor_branco_geral;
+                    border-left:5px solid $cor_pontuacao;
+                    width: 2.2rem;
+                    transition: 0.2s;
+                    
+                } 
+            }
+            .navbar-open-portfolio.show-menu {
+                display: block;
+                
+            }
+            .navbar-open-portfolio {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 19rem;
+                margin-left: 7rem;
+                font-size: 1.5rem;
+                display: none;
+               
+                h1 {
+                    margin-top: -26.6rem;
+                    text-transform: uppercase;
+                    color: $cor_branco_geral;
+                }
+                input {
+                    margin-top: 2rem;
+                    height: 2rem;
+                    background-color: transparent;
+                    border: 1px solid $cor_pontuacao;
+                    color: $cor_branco_geral;
+                    
+                }
+                ul {
+                    margin-top: 4rem;
+                    li {
+                        padding: 2rem 0;
+                                              
+                        a {
+                            text-decoration: none;
+                            color: $cor_branco_geral;
+                            
+                            
+                        }
+                    }
+                   
+                } 
+                .drop {
+                    
+                    padding-top: 2rem;
+                }
+                
+            }
+        }
         li {
 
             a {
