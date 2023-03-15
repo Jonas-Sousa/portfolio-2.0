@@ -255,6 +255,7 @@ html, body {
   align-items: center;
   text-decoration: none;
   color: #F8F8F2;
+  margin-left: -0.9rem;
 }
 .navbar .navbar-vertical .icon-contato .navbar-open-contato ul li a svg {
   fill: aqua;
