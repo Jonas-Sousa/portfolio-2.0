@@ -1,16 +1,16 @@
 const liClose = document.querySelector('.close')
-const arrow = document.querySelector('.click-sobre');
-const navbarOpen = document.querySelector('.navbar-open-sobre')
-const arrowCloseDropDown = () => {
+const contato = document.querySelector('.click-contato');
+const navbarOpen = document.querySelector('.navbar-open-contato')
+const contatoCloseDropDown = () => {
      
-    arrow.addEventListener('click', () => {
+    contato.addEventListener('click', () => {
         
         navbarOpen.classList.toggle("show-menu")
         liClose.classList.toggle('close')
-        arrow.classList.toggle('click-styled')
+        contato.classList.toggle('click-styled')
     });
 };
-arrowCloseDropDown()
+contatoCloseDropDown()
 
 const body = document.querySelector('body');
 
@@ -23,7 +23,6 @@ body.addEventListener('click', (event) => {
   if (!isClickInsideNavbar) {
     navbarOpen.classList.remove('show-menu');
     liClose.classList.add('close');
-    arrow.classList.remove('click-styled')
+    contato.classList.remove('click-styled')
   }
 });
-
