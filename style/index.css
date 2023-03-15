@@ -252,6 +252,7 @@ html, body {
 }
 .navbar .navbar-vertical .icon-contato .navbar-open-contato ul li a {
   display: flex;
+  align-items: center;
   text-decoration: none;
   color: #F8F8F2;
 }
