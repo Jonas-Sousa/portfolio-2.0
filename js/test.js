@@ -12,7 +12,7 @@ function escreverFraseLinhaPorLinha(frase, elemento) {
     if (contador > frase.length) {
       clearInterval(intervalo);
     }
-  }, 80); // 50 é o tempo de atraso entre cada linha (em milissegundos)
+  }, 60); 
 }
 
 escreverFraseLinhaPorLinha(frase, elemento);
