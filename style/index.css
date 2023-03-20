@@ -625,7 +625,10 @@ html, body {
 #close-modal {
   width: 1.4rem;
   position: absolute;
-  margin: -5.6rem 0 0 25rem;
+  margin: -31rem 0 0 26rem;
+}
+#close-modal path {
+  fill: #FF5555;
 }
 
 #close-modal:hover,
