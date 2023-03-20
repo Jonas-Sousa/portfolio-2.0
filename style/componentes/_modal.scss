@@ -21,7 +21,8 @@
     height: 40rem;
     h2 {
       text-align: center;
-      font-size: 1.4rem;
+      font-size: 2rem;
+      color: $cor_letra_titulo;
     }
     .js-lista {
       li {
@@ -56,7 +57,7 @@
   #close-modal {
     width: 1.4rem;
     position: absolute;
-    margin: -5.4rem 0 0 25rem;
+    margin: -5.6rem 0 0 25rem;
   }
   
   #close-modal:hover,
