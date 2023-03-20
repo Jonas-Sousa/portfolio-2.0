@@ -604,7 +604,7 @@ html, body {
   font-size: 2rem;
   color: #50FA7B;
 }
-.modal-content .js-lista li a {
+.modal-content .modal-lista li a {
   display: flex;
   gap: 0.5rem;
   text-decoration: none;
@@ -612,13 +612,13 @@ html, body {
   padding: 2rem 0 6px 0;
   border-bottom: 1px solid #6272A4;
 }
-.modal-content .js-lista li a h3 {
+.modal-content .modal-lista li a h3 {
   color: #50FA7B;
 }
-.modal-content .js-lista li a p {
+.modal-content .modal-lista li a p {
   color: #BD93F9;
 }
-.modal-content .js-lista li a span {
+.modal-content .modal-lista li a span {
   color: #FF79C6;
 }
 
