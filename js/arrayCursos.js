@@ -65,3 +65,5 @@ const javascript = [
         tempoCurso: 20
     }
 ]
+
+export default javascript
