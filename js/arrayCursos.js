@@ -63,7 +63,12 @@ const javascript = [
         titulo: "Javascript:",
         subTitulo: "Programando na linguagem da web",
         tempoCurso: 20
-    }
+    },
+    {
+        titulo: "Javascript:",
+        subTitulo: "trabalhando com threads para requisições simultâneas",
+        tempoCurso: 6
+    },
 ]
 
 export default javascript

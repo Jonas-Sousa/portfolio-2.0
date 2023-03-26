@@ -40,6 +40,10 @@
       font-size: 2rem;
       color: $cor_letra_titulo;
       margin-top: 5rem;
+      span {
+        margin-left: 1rem;
+        color: $cor_pontuacao
+      }
     }
     .modal-lista {
       margin-top: -4rem;

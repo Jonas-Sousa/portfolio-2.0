@@ -620,6 +620,10 @@ html, body {
   color: #50FA7B;
   margin-top: 5rem;
 }
+.modal-content h2 span {
+  margin-left: 1rem;
+  color: #FF79C6;
+}
 .modal-content .modal-lista {
   margin-top: -4rem;
   padding: 0 1rem;
