@@ -593,23 +593,43 @@ html, body {
 }
 
 .modal-content {
+  position: relative;
   background-color: #262939;
   margin: 15% auto;
   padding: 20px;
-  width: 30rem;
+  width: 40rem;
   height: 40rem;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #aaa #262939;
+}
+.modal-content::-webkit-scrollbar {
+  width: 16px;
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #44475A;
+  border-radius: 8px;
+  border: 2px solid #262939;
+}
+.modal-content::-webkit-scrollbar-track {
+  background-color: #262939;
 }
 .modal-content h2 {
   text-align: center;
   font-size: 2rem;
   color: #50FA7B;
+  margin-top: 5rem;
+}
+.modal-content .modal-lista {
+  margin-top: -4rem;
+  padding: 0 1rem;
 }
 .modal-content .modal-lista li a {
   display: flex;
   gap: 0.5rem;
   text-decoration: none;
   font-size: 1.2rem;
-  padding: 2rem 0 6px 0;
+  padding: 3rem 0 6px 0;
   border-bottom: 1px solid #6272A4;
 }
 .modal-content .modal-lista li a h3 {
@@ -623,9 +643,9 @@ html, body {
 }
 
 #close-modal {
-  width: 1.4rem;
+  width: 1.6rem;
   position: absolute;
-  margin: -31rem 0 0 26rem;
+  margin: -34rem 0 0 32rem;
 }
 #close-modal path {
   fill: #FF5555;
