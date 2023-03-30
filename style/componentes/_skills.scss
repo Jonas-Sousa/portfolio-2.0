@@ -32,27 +32,55 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+        gap: 1rem;
         .javascript figure{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 4rem 0 2rem 4rem;
+            margin-top: 4rem;
             
         }
         .typecript figure{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 4rem 0 2rem 4rem;
+            margin-top: 4rem;
             
         }
         .react figure{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 4rem 0 2rem 4rem;
+            margin-top: 4rem ;
             
         }
+        .css figure{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 4rem ;
+            
+        }
+        .node figure{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3rem ;
+            .open-modal {
+                margin-top: -0.5rem;
+            }
+        }
+        .git figure{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3rem ;
+            .open-modal {
+                margin-top: -0.5rem;
+            }
+        }
+        
+        
     }
     .chaves-inferior {
         font-size: $fonte-titulo;

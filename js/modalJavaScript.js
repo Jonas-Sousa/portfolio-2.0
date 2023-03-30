@@ -1,4 +1,4 @@
-import javascript from "./arrayCursos.js";
+import {javascript} from "./arrayCursos.js";
 
 const listaDeObj = []
 for (let i = 0; i < javascript.length; i++) {
@@ -8,27 +8,6 @@ for (let i = 0; i < javascript.length; i++) {
         tempo: javascript[i].tempoCurso
     })
 }
-
-function somarTempoCursos(array) {
-    let tempoTotal = 0;
-    for (let i = 0; i < array.length; i++) {
-      tempoTotal += array[i].tempoCurso;
-    }
-    return tempoTotal;
-}
-
-console.log();
-const exibirHorasTotalDoCurso = () => {
-    const h2Titulo = document.querySelector('.titulo-js')
-    h2Titulo.innerHTML = 
-    `
-
-    <h2>Javascript<span>${somarTempoCursos(javascript)}hrs</span></h2>
-    
-    `
-}
-exibirHorasTotalDoCurso()
-
 
 const exibirListaDeCursos = () => {
     const uljs = document.querySelector('.modal-lista')
@@ -50,6 +29,24 @@ const exibirListaDeCursos = () => {
     })
 }
 exibirListaDeCursos()
+
+function somarTempoCursos(array) {
+    let tempoTotal = 0;
+    for (let i = 0; i < array.length; i++) {
+      tempoTotal += array[i].tempoCurso;
+    }
+    return tempoTotal;
+}
+
+console.log();
+const exibirHorasTotalDoCurso = () => {
+    const h2Titulo = document.querySelector('.titulo-js')
+    h2Titulo.innerHTML = 
+    `
+    <h2>Javascript<span>${somarTempoCursos(javascript)}hrs</span></h2>
+    `
+}
+exibirHorasTotalDoCurso()
 
 
 

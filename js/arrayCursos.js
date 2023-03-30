@@ -1,4 +1,4 @@
-const javascript = [
+export const javascript = [
     {
         titulo: "Javascript:",
         subTitulo: "Crie páginas dinâmicas",
@@ -70,5 +70,20 @@ const javascript = [
         tempoCurso: 6
     },
 ]
-
-export default javascript
+export const react = [
+    {
+        titulo: "React:",
+        subTitulo: "Aprofundando em algoritmos de ordenação e busca",
+        tempoCurso: 10
+    },
+    {
+        titulo: "React:",
+        subTitulo: "Programando na linguagem da web",
+        tempoCurso: 20
+    },
+    {
+        titulo: "React:",
+        subTitulo: "trabalhando com threads para requisições simultâneas",
+        tempoCurso: 6
+    },
+]

@@ -390,24 +390,49 @@ html, body {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 .skills .skills-content .javascript figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0 2rem 4rem;
+  margin-top: 4rem;
 }
 .skills .skills-content .typecript figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0 2rem 4rem;
+  margin-top: 4rem;
 }
 .skills .skills-content .react figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0 2rem 4rem;
+  margin-top: 4rem;
+}
+.skills .skills-content .css figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.skills .skills-content .node figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .node figure .open-modal {
+  margin-top: -0.5rem;
+}
+.skills .skills-content .git figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .git figure .open-modal {
+  margin-top: -0.5rem;
 }
 .skills .chaves-inferior {
   font-size: 3rem;
@@ -576,12 +601,12 @@ html, body {
   transition: 1s;
 }
 
-#open-modal {
+.open-modal {
   cursor: pointer;
   margin-top: 0.5rem;
 }
 
-#modal {
+.modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -646,17 +671,17 @@ html, body {
   color: #FF79C6;
 }
 
-#close-modal {
+.close-modal {
   width: 1.6rem;
   position: absolute;
   margin: -34rem 0 0 32rem;
 }
-#close-modal path {
+.close-modal path {
   fill: #FF5555;
 }
 
-#close-modal:hover,
-#close-modal:focus {
+.close-modal:hover,
+.close-modal:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
