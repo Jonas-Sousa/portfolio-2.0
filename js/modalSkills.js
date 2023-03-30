@@ -1,42 +1,26 @@
-
-
-
-const btn = document.querySelector(".open-modal");
-const modal = document.querySelector(".modal");
-
-const span = document.querySelector(".close-modal");
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
+const acionaModal = (classBtn, classModal, classSpan) => {
+  const btn = document.querySelector(classBtn);
+  const modal = document.querySelector(classModal);
+  const span = document.querySelector(classSpan);
+  
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  span.onclick = function() {
     modal.style.display = "none";
   }
-}
-
-// TYPESCRIPT
-
-const btnTs = document.querySelector(".ts-btn");
-const modalTs= document.querySelector(".ts-div");
-
-const spanTs = document.querySelector(".ts-svg");
-
-btnTs.onclick = function() {
-  modalTs.style.display = "block";
-}
-
-spanTs.onclick = function() {
-  modalTs.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modalTs) {
-    modalTs.style.display = "none";
+  
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
   }
+  return acionaModal
 }
+// JAVASCRIPT
+acionaModal(".open-modal", ".modal", ".close-modal")
+// TYPESCRIPT
+acionaModal(".ts-btn", ".ts-div", ".ts-svg")
+
+
