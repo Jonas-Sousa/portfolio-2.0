@@ -1,23 +1,42 @@
-// Obtenha o botão e o modal
-var btn = document.querySelector(".open-modal");
-var modal = document.querySelector(".modal");
 
-// Obtenha o botão de fechar dentro do modal
-var span = document.querySelector(".close-modal");
 
-// Quando o usuário clicar no botão, abra o modal
+
+const btn = document.querySelector(".open-modal");
+const modal = document.querySelector(".modal");
+
+const span = document.querySelector(".close-modal");
+
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// Quando o usuário clicar no botão de fechar, feche o modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// Quando o usuário clicar fora do modal, feche-o
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  }
+}
+
+// TYPESCRIPT
+
+const btnTs = document.querySelector(".ts-btn");
+const modalTs= document.querySelector(".ts-div");
+
+const spanTs = document.querySelector(".ts-svg");
+
+btnTs.onclick = function() {
+  modalTs.style.display = "block";
+}
+
+spanTs.onclick = function() {
+  modalTs.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modalTs) {
+    modalTs.style.display = "none";
   }
 }

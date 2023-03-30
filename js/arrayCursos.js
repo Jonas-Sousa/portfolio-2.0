@@ -70,6 +70,7 @@ export const javascript = [
         tempoCurso: 6
     },
 ]
+
 export const react = [
     {
         titulo: "React:",
@@ -87,3 +88,4 @@ export const react = [
         tempoCurso: 6
     },
 ]
+
