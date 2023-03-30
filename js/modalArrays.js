@@ -34,7 +34,8 @@ const exibirListaDeCursos = (selecionado, doidera) => {
     })
 }
 exibirListaDeCursos('.ts-lista', percorreArray(react))
-exibirListaDeCursos('.modal-lista', percorreArray(javascript))
+exibirListaDeCursos('.js-lista', percorreArray(javascript))
+
 
 function somarTempoCursos(array) {
     let tempoTotal = 0;
