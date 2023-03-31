@@ -18,6 +18,7 @@ const acionaModal = (classBtn, classModal, classSpan) => {
   }
   return acionaModal
 }
+
 // JAVASCRIPT
 acionaModal(".js-btn", ".js-modal", ".js-svg")
 // TYPESCRIPT

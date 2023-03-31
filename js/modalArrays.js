@@ -1,12 +1,23 @@
-import { javascript, typescript } from "./arrayCursos.js"
+import { 
+    javascript, 
+    typescript, 
+    react, 
+    css, 
+    node, 
+    git, 
+    desing, 
+    inovacao, 
+    livros 
+} 
+from "./arrayCursos.js"
 
-const percorreArray = (abc) => {
+const percorreArray = (array) => {
     const listaDeObj = []
-    for (let i = 0; i < abc.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         listaDeObj.push({
-            titulo: abc[i].titulo,
-            subTitulo: abc[i].subTitulo,
-            tempo: abc[i].tempoCurso
+            titulo: array[i].titulo,
+            subTitulo: array[i].subTitulo,
+            tempo: array[i].tempoCurso
         })
         
     }
@@ -14,11 +25,11 @@ const percorreArray = (abc) => {
     return listaDeObj
 }
 
-const exibirListaDeCursos = (selecionado, doidera) => {
+const exibirListaDeCursos = (selecionado, array) => {
     const uljs = document.querySelector(selecionado)
 
     uljs.innerHTML = ''
-    doidera.forEach((obj) => {
+    array.forEach((obj) => {
       
         uljs.innerHTML += 
         `
@@ -33,8 +44,9 @@ const exibirListaDeCursos = (selecionado, doidera) => {
         
     })
 }
-exibirListaDeCursos('.ts-lista', percorreArray(typescript))
 exibirListaDeCursos('.js-lista', percorreArray(javascript))
+exibirListaDeCursos('.ts-lista', percorreArray(typescript))
+
 
 
 function somarTempoCursos(array) {
@@ -45,15 +57,16 @@ function somarTempoCursos(array) {
     return tempoTotal;
 }
 
-const exibirHorasTotalDoCurso = (h2, titulo, arr) => {
-    const h2Titulo = document.querySelector(h2)
+const exibirHorasTotalDoCurso = (selecionado, titulo, arr) => {
+    const h2Titulo = document.querySelector(selecionado)
     h2Titulo.innerHTML = 
     `
     <h2>${titulo}<span>${somarTempoCursos(arr)}hrs</span></h2>
     `
 }
-exibirHorasTotalDoCurso('.titulo-ts', 'Typescript', typescript)
 exibirHorasTotalDoCurso('.titulo-js', 'Javascript', javascript)
+exibirHorasTotalDoCurso('.titulo-ts', 'Typescript', typescript)
+
 
 
 
