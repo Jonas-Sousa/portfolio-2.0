@@ -1,4 +1,4 @@
-import { javascript, react } from "./arrayCursos.js"
+import { javascript, typescript } from "./arrayCursos.js"
 
 const percorreArray = (abc) => {
     const listaDeObj = []
@@ -33,7 +33,7 @@ const exibirListaDeCursos = (selecionado, doidera) => {
         
     })
 }
-exibirListaDeCursos('.ts-lista', percorreArray(react))
+exibirListaDeCursos('.ts-lista', percorreArray(typescript))
 exibirListaDeCursos('.js-lista', percorreArray(javascript))
 
 
@@ -52,7 +52,7 @@ const exibirHorasTotalDoCurso = (h2, titulo, arr) => {
     <h2>${titulo}<span>${somarTempoCursos(arr)}hrs</span></h2>
     `
 }
-exibirHorasTotalDoCurso('.titulo-ts', 'Typescript', react)
+exibirHorasTotalDoCurso('.titulo-ts', 'Typescript', typescript)
 exibirHorasTotalDoCurso('.titulo-js', 'Javascript', javascript)
 
 
