@@ -434,6 +434,33 @@ html, body {
 .skills .skills-content .git figure .open-modal {
   margin-top: -0.5rem;
 }
+.skills .skills-content .desing figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .desing figure .open-modal {
+  margin-top: -0.5rem;
+}
+.skills .skills-content .books figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .books figure .open-modal {
+  margin-top: -0.5rem;
+}
+.skills .skills-content .scrum figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .scrum figure .open-modal {
+  margin-top: -0.5rem;
+}
 .skills .chaves-inferior {
   font-size: 3rem;
   color: #F8F8F2;

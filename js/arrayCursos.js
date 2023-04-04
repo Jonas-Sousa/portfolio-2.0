@@ -107,26 +107,6 @@ export const node = [
 
 export const css = [
     {
-        titulo: "HTML5 e CSS3:",
-        subTitulo: "Crie uma página da We",
-        tempoCurso: 8
-    },
-    {
-        titulo: "HTML5 e CSS3:",
-        subTitulo: "Posicionamento, listas e navegação",
-        tempoCurso: 8
-    },
-    {
-        titulo: "HTML5 e CSS3:",
-        subTitulo: "Trabalhando com formulários e tabelas",
-        tempoCurso: 8
-    },
-    {
-        titulo: "HTML5 e CSS3:",
-        subTitulo: "Avançando no CSS",
-        tempoCurso: 8
-    },
-    {
         titulo: "CSS3:",
         subTitulo: "Trabalhando com layouts mobile",
         tempoCurso: 7
@@ -156,6 +136,27 @@ export const css = [
         subTitulo: "Criando uma landing page responsiva",
         tempoCurso: 8
     },
+    {
+        titulo: "HTML5 e CSS3:",
+        subTitulo: "Crie uma página da Web",
+        tempoCurso: 8
+    },
+    {
+        titulo: "HTML5 e CSS3:",
+        subTitulo: "Posicionamento, listas e navegação",
+        tempoCurso: 8
+    },
+    {
+        titulo: "HTML5 e CSS3:",
+        subTitulo: "Trabalhando com formulários e tabelas",
+        tempoCurso: 8
+    },
+    {
+        titulo: "HTML5 e CSS3:",
+        subTitulo: "Avançando no CSS",
+        tempoCurso: 8
+    },
+   
 ]
 
 export const git = [
@@ -189,7 +190,20 @@ export const desing = [
     },
 ]
 
-export const inovacao = [
+export const livros = [
+    {
+        titulo: "Mindset:",
+        subTitulo: "A nova psicologia",
+        tempoCurso: 18
+    },
+    {
+        titulo: "Javascript:",
+        subTitulo: "Estrutura de dados e algoritmo",
+        tempoCurso: 5
+    },
+]
+
+export const scrum = [
     {
         titulo: "Scrum:",
         subTitulo: "Agilidade em seu projeto",
@@ -199,16 +213,5 @@ export const inovacao = [
         titulo: "Scrum:",
         subTitulo: "Promovendo a transformação ágil",
         tempoCurso: 6
-    },
-]
-
-export const livros = [
-    {
-        titulo: "Mindset:",
-        subTitulo: "A nova psicologia",
-    },
-    {
-        titulo: "Javascript:",
-        subTitulo: "Estrutura de dados e algoritmo",
     },
 ]
