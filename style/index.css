@@ -390,24 +390,76 @@ html, body {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 .skills .skills-content .javascript figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0 2rem 4rem;
+  margin-top: 4rem;
 }
-.skills .skills-content .typecript {
+.skills .skills-content .typecript figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0 2rem 4rem;
+  margin-top: 4rem;
 }
-.skills .skills-content .react {
+.skills .skills-content .react figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0 2rem 4rem;
+  margin-top: 4rem;
+}
+.skills .skills-content .css figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.skills .skills-content .node figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .node figure .open-modal {
+  margin-top: -0.5rem;
+}
+.skills .skills-content .git figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .git figure .open-modal {
+  margin-top: -0.5rem;
+}
+.skills .skills-content .desing figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .desing figure .open-modal {
+  margin-top: -0.5rem;
+}
+.skills .skills-content .books figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .books figure .open-modal {
+  margin-top: -0.5rem;
+}
+.skills .skills-content .scrum figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.skills .skills-content .scrum figure .open-modal {
+  margin-top: -0.5rem;
 }
 .skills .chaves-inferior {
   font-size: 3rem;
@@ -576,11 +628,12 @@ html, body {
   transition: 1s;
 }
 
-#open-modal {
+.open-modal {
   cursor: pointer;
+  margin-top: 0.5rem;
 }
 
-#modal {
+.modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -588,27 +641,74 @@ html, body {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  background-color: rgba(16, 16, 16, 0.4);
+  background-color: rgba(16, 16, 16, 0.6);
 }
 
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
+  position: relative;
+  background-color: #262939;
+  margin: 5rem auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 30rem;
+  width: 40rem;
   height: 40rem;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #aaa #262939;
+}
+.modal-content::-webkit-scrollbar {
+  width: 16px;
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #44475A;
+  border-radius: 8px;
+  border: 2px solid #262939;
+}
+.modal-content::-webkit-scrollbar-track {
+  background-color: #262939;
+}
+.modal-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #50FA7B;
+  margin-top: 5rem;
+}
+.modal-content h2 span {
+  margin-left: 1rem;
+  color: #FF79C6;
+}
+.modal-content .modal-lista {
+  margin-top: -4rem;
+  padding: 0 1rem;
+}
+.modal-content .modal-lista li a {
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 3rem 0 6px 0;
+  border-bottom: 1px solid #6272A4;
+}
+.modal-content .modal-lista li a h3 {
+  color: #50FA7B;
+}
+.modal-content .modal-lista li a p {
+  color: #BD93F9;
+}
+.modal-content .modal-lista li a span {
+  color: #FF79C6;
 }
 
-#close-modal {
-  width: 2rem;
+.close-modal {
+  width: 1.6rem;
   position: absolute;
-  margin: -6rem 0 0 24rem;
+  margin: -34rem 0 0 32rem;
+}
+.close-modal path {
+  fill: #FF5555;
 }
 
-#close-modal:hover,
-#close-modal:focus {
+.close-modal:hover,
+.close-modal:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;

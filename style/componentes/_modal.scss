@@ -1,7 +1,8 @@
-#open-modal {
+.open-modal {
   cursor: pointer;
+  margin-top: 0.5rem;
 }
-#modal {
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -9,27 +10,88 @@
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
-    background-color: rgba(16, 16, 16, 0.4);
+    
+    background-color: rgba(16, 16, 16, 0.6);
   }
   
   .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
+    position: relative;
+    background-color: #262939;
+    margin: 5rem auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 30rem;
+    width: 40rem;
     height: 40rem;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #aaa #262939;
+    &::-webkit-scrollbar {
+      width: 16px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $cor2;
+      border-radius: 8px;
+      border: 2px solid #262939;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: #262939;
+    }  
+   
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: $cor_letra_titulo;
+      margin-top: 5rem;
+      span {
+        margin-left: 1rem;
+        color: $cor_pontuacao
+      }
+    }
+    .modal-lista {
+      margin-top: -4rem;
+      padding: 0 1rem;
+      li {
+        
+        
+        a {
+            display: flex;
+            gap: 0.5rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            
+            padding: 3rem 0 6px 0;
+            border-bottom: 1px solid $cor_icones;
+            h3 {
+              
+              color: $cor_letra_titulo;
+            }
+            p {
+             
+              color: $cor_letra_p_lilas;
+            }
+            span {
+              color: $cor_pontuacao;
+              
+            }
+        }
+      }
+      
+      
+    }
+    
   }
-  
-  #close-modal {
-    width: 2rem;
+  .close-modal {
+    
+    width: 1.6rem;
     position: absolute;
-    margin: -6rem 0 0 24rem;
+    margin: -34rem 0 0 32rem;
+    path {
+      fill: $cor10;
+    }
+    
   }
   
-  #close-modal:hover,
-  #close-modal:focus {
+  .close-modal:hover,
+  .close-modal:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
