@@ -28,7 +28,7 @@
         flex-wrap: wrap;
         gap: 1rem;
         
-        .teste {
+        .cards {
             text-decoration: none;
             color: $cor_branco_geral;
             margin-right: 0.5rem;
@@ -39,11 +39,11 @@
                     height: 21rem;
                     
                 }
-                .teste-portfolio-card {
+                .portfolio-card {
                     display: none;
                 }
                 &:hover {
-                    .teste-portfolio-card {
+                    .portfolio-card {
                         display: block;
                         position: absolute;
                         margin-top: -21.6rem;
