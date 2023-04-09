@@ -511,51 +511,49 @@ html, body {
   width: 21rem;
   height: 21rem;
 }
-.portfolio .portfolio-content .teste .ativo {
+.portfolio .portfolio-content .teste .teste-portfolio-card {
   display: none;
 }
-.portfolio .portfolio-content .teste:hover .ativo {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card {
   display: block;
-  background-color: rgba(47, 51, 72, 0.8);
-}
-.portfolio .portfolio-content .teste .teste-portfolio-card {
   position: absolute;
   margin-top: -21.6rem;
   width: 21rem;
   height: 21rem;
+  background-color: rgba(47, 51, 72, 0.8);
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card .x img {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card .x img {
   position: absolute;
   width: 1.6rem;
   margin: -8.4rem 0 0 18rem;
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card h3 {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card h3 {
   text-align: center;
   padding-top: 4.5rem;
   font-size: 1.6rem;
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card p {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card p {
   text-align: center;
   width: 20rem;
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card .btn-bb {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card .btn-bb {
   display: flex;
   justify-content: center;
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card .btn-bb .site-md {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card .btn-bb .site-md {
   background-color: #50FA7B;
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card .btn-bb .git-md {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card .btn-bb .git-md {
   background-color: #BD93F9;
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card .btn-bb .letra-card {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card .btn-bb .letra-card {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.8rem;
   color: black;
 }
-.portfolio .portfolio-content .teste .teste-portfolio-card .btn-bb button {
+.portfolio .portfolio-content .teste:hover .teste-portfolio-card .btn-bb button {
   width: 5rem;
   height: 2rem;
   border-radius: 6px;
