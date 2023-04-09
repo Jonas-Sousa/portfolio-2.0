@@ -26,30 +26,35 @@
         margin-top: 5rem;
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
         
         .teste {
-            margin-bottom: -2rem;
-            a {
-                text-decoration: none;
-                color: $cor_branco_geral;
-                margin-right: 0.5rem;
-                position: relative;
+            text-decoration: none;
+            color: $cor_branco_geral;
+            margin-right: 0.5rem;
+            position: relative;
+                
                 figure img {
                     width: 21rem;
                     height: 21rem;
+                    
                 }
                 .ativo {
                     display: none;
-                    transition: 1s;
+                    
+                }
+                &:hover {
+                    .ativo {
+                        display: block;
+                        background-color:rgba($color: $cor_nav_vertical, $alpha: 0.8);
+                    }
                 }
                 .teste-portfolio-card {
                     position: absolute;
                     margin-top: -21.6rem;
-                    background-color:rgba($color: $cor_nav_vertical, $alpha: 0.8);
                     width: 21rem;
                     height: 21rem;
-                    .x {
+                    .x img{
                         position: absolute;
                         width: 1.6rem;
                         margin: -8.4rem 0 0 18rem;
@@ -75,8 +80,8 @@
                         .letra-card {
                             font-weight: bold;
                             text-transform: uppercase;
+                            text-decoration: none;
                             font-size: 0.8rem;
-                            cursor: pointer;
                             color: black;
                         }
                         button {
@@ -85,12 +90,12 @@
                             border-radius: 6px;
                             margin: 1rem ;
                             border: none;
-                            
+                            cursor: pointer;
                         }
                     }
                                 
                 }
-            }
+            
         }
         
     }
