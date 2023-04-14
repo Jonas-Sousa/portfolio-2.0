@@ -1,3 +1,5 @@
+// COLOCAR "LINK" DOS CURSOS DENTRO DE CADA OBJETO
+
 export const javascript = [
     {
         titulo: "Javascript:",
@@ -81,6 +83,21 @@ export const react = [
         titulo: "React:",
         subTitulo: "Desenvolvendo com JavaScript",
         tempoCurso: 14
+    },
+    {
+        titulo: "React:",
+        subTitulo: "Desenvolvendo em React Router com JavaScript",
+        tempoCurso: 8
+    },
+    {
+        titulo: "React:",
+        subTitulo: "Lidando com arquivos estáticos",
+        tempoCurso: 8
+    },
+    {
+        titulo: "React:",
+        subTitulo: "Como os componentes funcionam",
+        tempoCurso: 8
     }
 ]
 
@@ -88,6 +105,11 @@ export const typescript = [
     {
         titulo: "typescript:",
         subTitulo: "Evoluindo seu Javascript",
+        tempoCurso: 10
+    },
+    {
+        titulo: "typescript:",
+        subTitulo: "Avançando na linguagem",
         tempoCurso: 10
     }
 ]
