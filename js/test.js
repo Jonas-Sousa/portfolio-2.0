@@ -15,4 +15,4 @@ function escreverFraseLinhaPorLinha(frase, elemento) {
   }, 60); 
 }
 
-escreverFraseLinhaPorLinha(frase, elemento);
+// escreverFraseLinhaPorLinha(frase, elemento);
