@@ -33,79 +33,67 @@
         justify-content: space-around;
         flex-wrap: wrap;
         gap: 1rem;
-        .javascript figure{
+        .card-skills figure{
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-top: 4rem;
             
         }
-        .typecript figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 4rem;
+        // .typecript figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem;
             
-        }
-        .react figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 4rem ;
+        // }
+        // .react figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem ;
             
-        }
-        .css figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 4rem ;
+        // }
+        // .css figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem ;
             
-        }
-        .node figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 3rem ;
-            .open-modal {
-                margin-top: -0.5rem;
-            }
-        }
-        .git figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 3rem ;
-            .open-modal {
-                margin-top: -0.5rem;
-            }
-        }
-        .desing figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 3rem ;
-            .open-modal {
-                margin-top: -0.5rem;
-            }
-        }
-        .books figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 3rem ;
-            .open-modal {
-                margin-top: -0.5rem;
-            }
-        }
-        .scrum figure{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 3rem ;
-            .open-modal {
-                margin-top: -0.5rem;
-            }
-        }
+        // }
+        // .node figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem ;
+            
+        // }
+        // .git figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem ;
+            
+        // }
+        // .desing figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem ;
+            
+        // }
+        // .books figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem ;
+        // }
+        // .scrum figure{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-top: 4rem ;
+        // }
         
         
         
