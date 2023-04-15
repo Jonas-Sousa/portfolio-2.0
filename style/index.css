@@ -393,74 +393,11 @@ html, body {
   flex-wrap: wrap;
   gap: 1rem;
 }
-.skills .skills-content .javascript figure {
+.skills .skills-content .card-skills figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
-}
-.skills .skills-content .typecript figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-}
-.skills .skills-content .react figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-}
-.skills .skills-content .css figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-}
-.skills .skills-content .node figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-}
-.skills .skills-content .node figure .open-modal {
-  margin-top: -0.5rem;
-}
-.skills .skills-content .git figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-}
-.skills .skills-content .git figure .open-modal {
-  margin-top: -0.5rem;
-}
-.skills .skills-content .desing figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-}
-.skills .skills-content .desing figure .open-modal {
-  margin-top: -0.5rem;
-}
-.skills .skills-content .books figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-}
-.skills .skills-content .books figure .open-modal {
-  margin-top: -0.5rem;
-}
-.skills .skills-content .scrum figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-}
-.skills .skills-content .scrum figure .open-modal {
-  margin-top: -0.5rem;
 }
 .skills .chaves-inferior {
   font-size: 3rem;

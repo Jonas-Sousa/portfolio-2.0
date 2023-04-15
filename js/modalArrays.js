@@ -17,7 +17,8 @@ const percorreArray = (array) => {
         listaDeObj.push({
             titulo: array[i].titulo,
             subTitulo: array[i].subTitulo,
-            tempo: array[i].tempoCurso
+            tempo: array[i].tempoCurso,
+            link: array[i].link,
         })
         
     }
@@ -34,26 +35,28 @@ const exibirListaDeCursos = (selecionado, array) => {
         uljs.innerHTML += 
         `
             <li>
-                <a href="">
+                <a href=${obj.link} target="_blanck" >
                     <h3>${obj.titulo}</h3>
                     <p>${obj.subTitulo}</p>
                     <span> ${obj.tempo}hrs</span>
                  </a>
             </li>
+
         `
         
     })
 }
-
-exibirListaDeCursos('.js-lista', percorreArray(javascript))
-exibirListaDeCursos('.ts-lista', percorreArray(typescript))
-exibirListaDeCursos('.rc-lista', percorreArray(react))
-exibirListaDeCursos('.css-lista', percorreArray(css))
-exibirListaDeCursos('.node-lista', percorreArray(node))
-exibirListaDeCursos('.git-lista', percorreArray(git))
-exibirListaDeCursos('.desing-lista', percorreArray(desing))
-exibirListaDeCursos('.books-lista', percorreArray(livros))
-exibirListaDeCursos('.scrum-lista', percorreArray(scrum))
+document.addEventListener('DOMContentLoaded', function() {
+    exibirListaDeCursos('.js-lista', percorreArray(javascript));
+    exibirListaDeCursos('.ts-lista', percorreArray(typescript));
+    exibirListaDeCursos('.rc-lista', percorreArray(react))
+    exibirListaDeCursos('.css-lista', percorreArray(css))
+    exibirListaDeCursos('.node-lista', percorreArray(node))
+    exibirListaDeCursos('.git-lista', percorreArray(git))
+    exibirListaDeCursos('.desing-lista', percorreArray(desing))
+    exibirListaDeCursos('.books-lista', percorreArray(livros))
+    exibirListaDeCursos('.scrum-lista', percorreArray(scrum))
+});
 
 const somarTempoCursos = (array) => {
     let tempoTotal = 0;
@@ -70,16 +73,18 @@ const exibirHorasTotalDoCurso = (selecionado, titulo, array) => {
     <h2>${titulo}<span>${somarTempoCursos(array)}hrs</span></h2>
     `
 }
+document.addEventListener('DOMContentLoaded', function() {
+    exibirHorasTotalDoCurso('.titulo-js', 'Javascript', javascript)
+    exibirHorasTotalDoCurso('.titulo-ts', 'Typescript', typescript)
+    exibirHorasTotalDoCurso('.titulo-rc', 'React', react)
+    exibirHorasTotalDoCurso('.titulo-css', 'CSS', css)
+    exibirHorasTotalDoCurso('.titulo-node', 'Node', node)
+    exibirHorasTotalDoCurso('.titulo-git', 'Git', git)
+    exibirHorasTotalDoCurso('.titulo-desing', 'Desing', desing)
+    exibirHorasTotalDoCurso('.titulo-books', 'Livros', livros)
+    exibirHorasTotalDoCurso('.titulo-scrum', 'Scrum', scrum)
+});
 
-exibirHorasTotalDoCurso('.titulo-js', 'Javascript', javascript)
-exibirHorasTotalDoCurso('.titulo-ts', 'Typescript', typescript)
-exibirHorasTotalDoCurso('.titulo-rc', 'React', react)
-exibirHorasTotalDoCurso('.titulo-css', 'CSS', css)
-exibirHorasTotalDoCurso('.titulo-node', 'Node', node)
-exibirHorasTotalDoCurso('.titulo-git', 'Git', git)
-exibirHorasTotalDoCurso('.titulo-desing', 'Desing', desing)
-exibirHorasTotalDoCurso('.titulo-books', 'Livros', livros)
-exibirHorasTotalDoCurso('.titulo-scrum', 'Scrum', scrum)
 
 
 
