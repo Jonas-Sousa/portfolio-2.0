@@ -17,7 +17,8 @@ const percorreArray = (array) => {
         listaDeObj.push({
             titulo: array[i].titulo,
             subTitulo: array[i].subTitulo,
-            tempo: array[i].tempoCurso
+            tempo: array[i].tempoCurso,
+            link: array[i].link,
         })
         
     }
@@ -34,7 +35,7 @@ const exibirListaDeCursos = (selecionado, array) => {
         uljs.innerHTML += 
         `
             <li>
-                <a href="">
+                <a href=${obj.link} target="_blanck" >
                     <h3>${obj.titulo}</h3>
                     <p>${obj.subTitulo}</p>
                     <span> ${obj.tempo}hrs</span>
