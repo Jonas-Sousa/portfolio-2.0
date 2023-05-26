@@ -6,6 +6,7 @@ const percorreCards = (array) => {
         listaDeCards.push({
             imagem: array[i].imagem,
             titulo: array[i].titulo,
+            iconeTec: array[i].iconeTec,
             descricao: array[i].descricao,
             linkSite: array[i].linkSite,
             linkGithub: array[i].linkGithub
@@ -26,7 +27,11 @@ const exibirCards = (array) => {
                     <img src=${obj.imagem} alt="" class="foto-card">
                 </figure>
                 <div class="portfolio-card">
-                    <h3>${obj.titulo}</h3>
+                    <div class="titulo-card">
+                        <img src="${obj.iconeTec}" />
+                        <h3>${obj.titulo}</h3>
+                    </div>
+                    
                     <p>
                         ${obj.descricao} 
                     </p>

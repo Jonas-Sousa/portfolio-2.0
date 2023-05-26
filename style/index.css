@@ -11,7 +11,7 @@ html, body {
 .navbar .navbar-horizontal {
   background-color: #1c1e26;
   width: 100vw;
-  z-index: 2;
+  z-index: 4;
 }
 .navbar .navbar-horizontal .home-superior {
   display: flex;
@@ -444,7 +444,7 @@ html, body {
   margin-right: 0.5rem;
   position: relative;
 }
-.portfolio .portfolio-content .cards figure img {
+.portfolio .portfolio-content .cards .foto-card {
   width: 21rem;
   height: 21rem;
 }
@@ -458,6 +458,16 @@ html, body {
   width: 21rem;
   height: 21rem;
   background-color: rgba(47, 51, 72, 0.8);
+}
+.portfolio .portfolio-content .cards:hover .portfolio-card .titulo-card {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.portfolio .portfolio-content .cards:hover .portfolio-card .titulo-card img {
+  width: 3rem;
+  height: 3rem;
+  padding-right: 0.6rem;
 }
 .portfolio .portfolio-content .cards:hover .portfolio-card .x img {
   position: absolute;
