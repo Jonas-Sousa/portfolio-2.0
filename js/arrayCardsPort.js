@@ -8,6 +8,22 @@ export const cards = [
         linkGithub: "https://github.com/Jonas-Sousa/memoteca"
     },
     {
+        imagem: "./img/Gotravel.png",
+        titulo: "Gotravel",
+        iconeTec: "./img/angularIcon.svg",
+        descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a corporis",
+        linkSite: "https://gotravel-omega.vercel.app/home",
+        linkGithub: "https://github.com/Jonas-Sousa/gotravel"
+    },
+    {
+        imagem: "./img/buscante.png",
+        titulo: "Buscante",
+        iconeTec: "./img/angularIcon.svg",
+        descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a corporis",
+        linkSite: "https://buscante-psi.vercel.app/lista-livros",
+        linkGithub: "https://github.com/Jonas-Sousa/buscante"
+    },
+    {
         imagem: "./img/space.png",
         titulo: "Alura Space",
         iconeTec: "./img/reactIcon.svg",
@@ -46,13 +62,5 @@ export const cards = [
         descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a corporis",
         linkSite: "https://jonas-sousa.github.io/bytebanck/",
         linkGithub: "https://github.com/Jonas-Sousa/bytebanck"
-    },
-    // {
-    //     imagem: "./img/elo7.png",
-    //     titulo: "Gotravel",
-    //     iconeTec: "./img/angularIcon.svg",
-    //     descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a corporis",
-    //     linkSite: "https://desafio-elo7-12.vercel.app",
-    //     linkGithub: "https://github.com/Jonas-Sousa/Desafio-Elo7"
-    // },
+    }
 ]
